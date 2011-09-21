@@ -2,7 +2,8 @@
 * Software used: Mac OS 10.6, Python 2.6.1, SQLite 3.6.12, PycURL 7.19.0,
                  BeautifulSoap 3.2.0, Pipermail 0.09 (Mailman edition).
 * Project home: git://github.com/zackgalbreath/MailingListData.git
-* MD5 checksum of the official database file is: 
+* MD5 checksum of the "official" database file is:
+  c17555700f3c9f0a019be6a537f83bc6 
 
 
 == Contents ==
