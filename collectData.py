@@ -1,6 +1,4 @@
 #!/usr/bin/env python
-from BeautifulSoup import BeautifulStoneSoup
-import cgi
 import re
 import pycurl
 import sqlite3
@@ -8,19 +6,14 @@ import string
 import StringIO
 import sys
 
-#Converts HTML entities to unicode.  For example '&amp;' becomes '&'
-def HTMLEntitiesToUnicode(text):
-  text = unicode(BeautifulStoneSoup(text, convertEntities=BeautifulStoneSoup.ALL_ENTITIES))
-  return text
-
 #Determines whether or not a message had a meaningful attachment
 def messageHasAttachment(contents):  
-  if contents.find("non-text attachment was scrubbed...") == 0:
+  if contents.find("non-text attachment was scrubbed...") == -1:
     return "no"
   if contents.count("non-text attachment was scrubbed") == \
     contents.count("pgp-signature"):
-    return "yes"
-  return 1
+    return "no"
+  return "yes"
 
 #Extracts metadata from a single message
 def parseURL(URL):
@@ -90,15 +83,14 @@ if __name__ == "__main__":
     #get the subject of this message
     match = subjectRE.search(line)
     URL = baseURL + match.group(1)
-    #unicode is fun
-    subject = HTMLEntitiesToUnicode(string.replace(match.group(2), "\t", " "))
+    subject = string.replace(match.group(2), "\t", " ")
 
     #get the author of this message (two lines later) 
     i = i + 2
     line = contents[i]
     match = authorRE.search(line)
     #unicode is fun
-    author = HTMLEntitiesToUnicode(match.group(1))
+    author = match.group(1)
 
     #is this a reply to a message that we've already seen?
     if subject in subjects:

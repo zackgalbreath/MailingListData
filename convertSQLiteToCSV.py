@@ -39,13 +39,14 @@ if __name__ == "__main__":
 
   for row in c:
     for field in row:
-      #f.write(field)
-      #noCommas = string.replace(str(field),","," ")
-      #uni = HTMLEntitiesToUnicode(noCommas).encode('utf-8')
-      print field
-      uni = HTMLEntitiesToUnicode(field).encode('utf-8')
-      f.write(uni.encode('utf-8'))
-      #f.write(HTMLEntitiesToUnicode(string.replace(str(field),","," ")).encode('utf-8'))
+      if type(field) is unicode:
+        noCommas = string.replace(field,","," ")
+        #uni = HTMLEntitiesToUnicode(noCommas).encode('utf-8')
+        uni = HTMLEntitiesToUnicode(noCommas)
+        #f.write(uni.encode('utf-8'))
+        f.write(uni)
+      else:
+        f.write(unicode(field))
 
       if field == row[-1]:
         f.write("\n")

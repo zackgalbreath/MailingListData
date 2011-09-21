@@ -1,2 +1,100 @@
 ﻿Message_Subject, Author, Received_Reply, Time_of_Day, Day_of_Week, Message_Length, Any_Attachments, Archive_URL
-question (for lydia ng perhaps), Rick Frank, no, 12:00:17, Thu, 
+question (for lydia ng perhaps), Rick Frank, no, 12:00:17, Thu, 2972, no, http://www.itk.org/pipermail/insight-users/2011-August/042189.html
+Gaussian filters difference, Dženan Zukić, no, 06:02:45, Thu, 3224, no, http://www.itk.org/pipermail/insight-users/2011-August/042184.html
+USE_ImageViewer;, 369328686, no, 04:26:23, Wed, 2750, no, http://www.itk.org/pipermail/insight-users/2011-August/042235.html
+filter with multiple inputs, iamrndm b, yes, 00:57:50, Tue, 3218, no, http://www.itk.org/pipermail/insight-users/2011-August/042157.html
+itkTriangleMeshToBinaryImageFilter support for partial overlap?, Dženan Zukić, yes, 06:58:31, Tue, 3101, no, http://www.itk.org/pipermail/insight-users/2011-August/042294.html
+Region Growing Segmentation to Marching Cubes Implementation, khaled danwar, yes, 11:07:58, Sat, 5752, no, http://www.itk.org/pipermail/insight-users/2011-August/042350.html
+Filter with inputs which do not occupy the same physical space, Dženan Zukić, self only, 04:58:13, Tue, 4307, yes, http://www.itk.org/pipermail/insight-users/2011-August/042220.html
+Visual Studio debugger visualizers for ITK, Dženan Zukić, self only, 11:35:17, Wed, 5762, yes, http://www.itk.org/pipermail/insight-users/2011-August/042241.html
+itkvtkglue - cmake can't include (${ItkVtkGlue_USE_FILE}), Dženan Zukić, yes, 07:45:48, Mon, 6018, no, http://www.itk.org/pipermail/insight-users/2011-August/042129.html
+itk example data, li xiuli, yes, 06:39:01, Tue, 3580, no, http://www.itk.org/pipermail/insight-users/2011-August/042160.html
+How to know if the spacing and origins have values?, soheilghafurian, yes, 11:59:48, Sun, 3156, no, http://www.itk.org/pipermail/insight-users/2011-August/042354.html
+New Submission: Interactive Correspondence Selection, Insight Journal, no, 10:17:34, Fri, 3638, no, http://www.itk.org/pipermail/insight-users/2011-August/042346.html
+how to open a 16-bit image, soheilghafurian, yes, 16:06:50, Mon, 2827, no, http://www.itk.org/pipermail/insight-users/2011-August/042326.html
+Problems about 3D construction with tetrahedral mesh from DICOM series, smallping, yes, 13:06:45, Thu, 11345, no, http://www.itk.org/pipermail/insight-users/2011-August/042190.html
+ITK Shared Libs on Mac, Nicolas Rannou, no, 13:05:28, Thu, 8820, no, http://www.itk.org/pipermail/insight-users/2011-August/042256.html
+Find somebody to help us to finish the project and pay money for the work, smallping, no, 17:34:56, Sat, 4884, no, http://www.itk.org/pipermail/insight-users/2011-August/042199.html
+DRR generation problems, David Brayford, no, 15:48:07, Tue, 2578, no, http://www.itk.org/pipermail/insight-users/2011-August/042228.html
+resampling an image to isotropic pixel size, Anja Ende, yes, 14:43:07, Mon, 2932, no, http://www.itk.org/pipermail/insight-users/2011-August/042212.html
+Question about itkReconstructionByDilationImageFilter, qi yang, yes, 14:18:29, Thu, 5217, no, http://www.itk.org/pipermail/insight-users/2011-August/042191.html
+How to load vector image .mha in matlab ?, Yi-Yu Chou, yes, 22:31:41, Sat, 2735, no, http://www.itk.org/pipermail/insight-users/2011-August/042353.html
+Map results of itkLabelGeometryImageFilter to Image, Martijn Steenwijk, no, 13:25:56, Mon, 3239, no, http://www.itk.org/pipermail/insight-users/2011-August/042211.html
+Curious Problem On Fast Marching Segmentation, Fan Yang, no, 05:02:42, Thu, 5045, yes, http://www.itk.org/pipermail/insight-users/2011-August/042183.html
+z-axis ImagePositionPatient information lost on DICOM series write, Somer  Edward, yes, 04:42:00, Mon, 12687, no, http://www.itk.org/pipermail/insight-users/2011-August/042203.html
+Agenda for Today's tcon, Luis Ibanez, no, 07:39:35, Fri, 2624, no, http://www.itk.org/pipermail/insight-users/2011-August/042195.html
+How to write header information to Raw images?, Peymon, yes, 17:40:01, Mon, 3127, no, http://www.itk.org/pipermail/insight-users/2011-August/042330.html
+Creating 3D images from 2D DICOM series, emreturkoz, yes, 00:13:49, Tue, 2934, no, http://www.itk.org/pipermail/insight-users/2011-August/042156.html
+By sharing with open source projects  professors teach the importance of giving back, Luis Ibanez, no, 14:02:42, Sun, 2945, no, http://www.itk.org/pipermail/insight-users/2011-August/042320.html
+The Insight Journal-New Submission, Insight Journal, self only, 08:06:09, Tue, 3453, no, http://www.itk.org/pipermail/insight-users/2011-August/042162.html
+[Insight-developers] ITK Shared Libs on Mac, Luis Ibanez, yes, 16:16:27, Sat, 12030, no, http://www.itk.org/pipermail/insight-users/2011-August/042268.html
+VTK volume to ITK image conversion crash, David Brayford, no, 12:11:49, Mon, 3317, no, http://www.itk.org/pipermail/insight-users/2011-August/042210.html
+helloworld.exe not running, Aparna Srinivasan, yes, 06:05:42, Sun, 3433, no, http://www.itk.org/pipermail/insight-users/2011-August/042270.html
+Errors building GIT source, Scott Johnson, no, 15:21:15, Mon, 6567, no, http://www.itk.org/pipermail/insight-users/2011-August/042363.html
+Help with using itk::QuadEdgeMesh, Vimal Singh, yes, 15:10:59, Sun, 6123, no, http://www.itk.org/pipermail/insight-users/2011-August/042321.html
+extract surface, oka, no, 08:13:35, Thu, 2606, no, http://www.itk.org/pipermail/insight-users/2011-August/042344.html
+help for itkDeformationFieldTransform.txx, Luis Ibanez, no, 07:01:54, Thu, 3974, no, http://www.itk.org/pipermail/insight-users/2011-August/042185.html
+itk::orientedimage to Dicom, mathilde.merle, yes, 05:01:57, Wed, 2830, no, http://www.itk.org/pipermail/insight-users/2011-August/042370.html
+3D Registration with different spacings, Wolf  Levin, no, 11:59:02, Mon, 4019, no, http://www.itk.org/pipermail/insight-users/2011-August/042146.html
+Determining how many slices a 3D object covers, Kevin Zhang, yes, 14:58:39, Thu, 3307, no, http://www.itk.org/pipermail/insight-users/2011-August/042257.html
+build - "out of the box" on MacOSX 10.6.8, Rick Frank, yes, 10:21:09, Thu, 2820, no, http://www.itk.org/pipermail/insight-users/2011-August/042186.html
+Polymorphism while using Registration Framework, Stefan König, self only, 04:55:00, Tue, 3336, no, http://www.itk.org/pipermail/insight-users/2011-August/042219.html
+[Gdcm2] Link error for ITK+VTK+GDCM+QT inVisual Studio 2008, Jafari  Kourosh, yes, 07:40:49, Mon, 5231, no, http://www.itk.org/pipermail/insight-users/2011-August/042204.html
+ITK - windows vs. linux, Jihun Kim, yes, 14:34:56, Wed, 2803, no, http://www.itk.org/pipermail/insight-users/2011-August/042308.html
+Connected Components Example, Ryan Smith, yes, 11:32:00, Mon, 3588, yes, http://www.itk.org/pipermail/insight-users/2011-August/042282.html
+problems with installation, gary smith, yes, 16:20:45, Fri, 9324, no, http://www.itk.org/pipermail/insight-users/2011-August/042347.html
+Is it a bug?, 周翼翼, no, 07:03:31, Fri, 3653, no, http://www.itk.org/pipermail/insight-users/2011-August/042315.html
+Computes the gradient of an image by convolution with the first derivative of a Gaussian., nicrey, yes, 17:12:05, Mon, 3648, no, http://www.itk.org/pipermail/insight-users/2011-August/042329.html
+Using ExtractImageFilter in a loop, Kevin Zhang, yes, 13:48:52, Tue, 4705, no, http://www.itk.org/pipermail/insight-users/2011-August/042227.html
+Finding the closest pixel with a specific criteria, David Doria, self only, 16:00:39, Wed, 4792, no, http://www.itk.org/pipermail/insight-users/2011-August/042375.html
+How to recognize similar images with ITK?, Agustin Conde Martin, yes, 17:21:46, Tue, 3088, yes, http://www.itk.org/pipermail/insight-users/2011-August/042300.html
+A micro-lens-equipped smartphone for diagnosing malaria, Andriy Fedorov, no, 09:10:43, Wed, 3441, no, http://www.itk.org/pipermail/insight-users/2011-August/042176.html
+'and/or' operation between images, iamrndm b, yes, 12:06:52, Tue, 4219, no, http://www.itk.org/pipermail/insight-users/2011-August/042225.html
+ITKVideo modules compiling errors, siqi chen, no, 19:19:49, Tue, 3590, no, http://www.itk.org/pipermail/insight-users/2011-August/042231.html
+Invitation to connect on LinkedIn, Doğu Vural ÖZBUDAK via LinkedIn, yes, 19:06:58, Sat, 4289, no, http://www.itk.org/pipermail/insight-users/2011-August/042269.html
+Insight-users Digest  Vol 88  Issue 8, Andriy Fedorov, no, 12:24:00, Fri, 43406, yes, http://www.itk.org/pipermail/insight-users/2011-August/042197.html
+Quick Q: Boundary Behavior of NeighborhoodIterator in ThreadedGenerateData?, kent williams, yes, 16:00:21, Thu, 3209, no, http://www.itk.org/pipermail/insight-users/2011-August/042313.html
+Image processing position at Allen Institute  Seattle, Lydia Ng, no, 01:03:12, Wed, 3945, no, http://www.itk.org/pipermail/insight-users/2011-August/042170.html
+itkImageToVTKImageFilter crashing during runtime, Chunwoo Kim, yes, 18:49:52, Mon, 3420, no, http://www.itk.org/pipermail/insight-users/2011-August/042151.html
+ITK4 dll's and lib's - ITKCommon-4.0.dll is missing from your computer, Hugues Fontenelle, yes, 07:52:52, Mon, 4522, no, http://www.itk.org/pipermail/insight-users/2011-August/042206.html
+question about .tiff images, soheilghafurian, no, 21:43:33, Sun, 2933, no, http://www.itk.org/pipermail/insight-users/2011-August/042322.html
+VNLFFT vs. FFTW, Kevin H. Hobbs, yes, 10:41:00, Tue, 3533, no, http://www.itk.org/pipermail/insight-users/2011-August/042164.html
+Running Registration Examples!, gdmoralesp, yes, 18:28:06, Sun, 2840, no, http://www.itk.org/pipermail/insight-users/2011-August/042273.html
+Deriving itk::Image to natively support Matlab arrays, Ramón Casero Cañas, self only, 06:37:51, Wed, 4855, no, http://www.itk.org/pipermail/insight-users/2011-August/042237.html
+Niblack local-threshold, Roman Grothausmann, no, 04:10:19, Tue, 3330, no, http://www.itk.org/pipermail/insight-users/2011-August/042367.html
+Need help: How to iterate though Analyze Datasets, Alexandra.Derntl at gmx.at, yes, 11:11:15, Sat, 3202, no, http://www.itk.org/pipermail/insight-users/2011-August/042266.html
+writing out a 3D volume, David Brayford, yes, 12:53:51, Wed, 3877, no, http://www.itk.org/pipermail/insight-users/2011-August/042246.html
+Understanding OptimizerScales in its entirety, Wolf  Levin, yes, 20:09:57, Thu, 4136, no, http://www.itk.org/pipermail/insight-users/2011-August/042260.html
+Metaheader for TIFF stack of Floats?, Robert.Atwood at diamond.ac.uk, no, 11:03:38, Mon, 22352, no, http://www.itk.org/pipermail/insight-users/2011-August/042136.html
+The VTK Journal-New Submission, VTK Journal, no, 12:58:36, Tue, 3333, no, http://www.itk.org/pipermail/insight-users/2011-August/042168.html
+How to open .cine files?, soheilghafurian, yes, 12:50:06, Thu, 2735, no, http://www.itk.org/pipermail/insight-users/2011-August/042254.html
+About the status of itkv4., JiaXin Yuan, yes, 01:39:14, Mon, 2981, no, http://www.itk.org/pipermail/insight-users/2011-August/042200.html
+Cocoa app with ITK  VTK to read DICOM file, Max Putrik, yes, 01:26:42, Wed, 3401, no, http://www.itk.org/pipermail/insight-users/2011-August/042234.html
+multiresolution registration time, Sara Rolfe, no, 18:37:23, Tue, 3328, no, http://www.itk.org/pipermail/insight-users/2011-August/042301.html
+An informal comparison between itk::BinaryDilateImageFilter and Matlab's imdilate(), Ramón Casero Cañas, yes, 06:46:40, Mon, 4327, no, http://www.itk.org/pipermail/insight-users/2011-August/042279.html
+Curve/Surface representation and operations, Brecht Heyde, yes, 04:50:58, Wed, 3519, no, http://www.itk.org/pipermail/insight-users/2011-August/042236.html
+[vtkusers] QWidget:Must construct a QApplication before a QPaintDevice, Dženan Zukić, no, 04:35:37, Mon, 10018, yes, http://www.itk.org/pipermail/insight-users/2011-August/042277.html
+integration with Windows WPF, Rick Frank, yes, 12:04:24, Wed, 2659, no, http://www.itk.org/pipermail/insight-users/2011-August/042373.html
+information back from threads for writing multi-threaded filters, iamrndm b, yes, 22:42:12, Wed, 3437, no, http://www.itk.org/pipermail/insight-users/2011-August/042181.html
+The best way to extract the contours of X-ray image, Артем Николаевич, yes, 03:12:07, Mon, 3338, no, http://www.itk.org/pipermail/insight-users/2011-August/042355.html
+LBFGSB missing StartEvent(), Brecht Heyde, yes, 10:00:10, Wed, 2638, no, http://www.itk.org/pipermail/insight-users/2011-August/042177.html
+error C2872: 'uint16_t' : ambiguous symbol, Zein Salah, yes, 07:32:54, Mon, 3215, no, http://www.itk.org/pipermail/insight-users/2011-August/042126.html
+writting my own threaded filter, iamrndm b, yes, 00:50:21, Mon, 2872, no, http://www.itk.org/pipermail/insight-users/2011-August/042125.html
+Generate a sinogramm from image sequence, Артем Николаевич, no, 04:17:41, Mon, 3379, no, http://www.itk.org/pipermail/insight-users/2011-August/042356.html
+How could I get part of information from a mhd file?, Mengqiu Tian, yes, 11:47:39, Tue, 3471, no, http://www.itk.org/pipermail/insight-users/2011-August/042166.html
+Understanding OptimizerScales in its  entirety, Kris Zygmunt, no, 15:52:53, Fri, 8632, no, http://www.itk.org/pipermail/insight-users/2011-August/042348.html
+Drawing Shape on BinaryImage(BW), 강민구, no, 12:20:01, Sat, 3108, no, http://www.itk.org/pipermail/insight-users/2011-August/042351.html
+ITK DRR generation on a VTK volume, David Brayford, no, 14:18:43, Mon, 2727, no, http://www.itk.org/pipermail/insight-users/2011-August/042150.html
+error C2872: 'uint16_t' : ambiguous symbol - same boat, Prashanth, no, 11:23:02, Mon, 3057, no, http://www.itk.org/pipermail/insight-users/2011-August/042141.html
+Put labels onto image, Xiaopeng Yang, no, 21:25:34, Thu, 2973, no, http://www.itk.org/pipermail/insight-users/2011-August/042345.html
+Does itkBinaryThresholdFilter compress output image ?, 강민구, yes, 08:43:43, Fri, 3434, no, http://www.itk.org/pipermail/insight-users/2011-August/042317.html
+Problem using ImageToVTKImageFilter and QVTKWidget, jason yuan, no, 01:44:07, Wed, 4202, no, http://www.itk.org/pipermail/insight-users/2011-August/042171.html
+Problems when Using Curves2DExtractor, Fan Yang, no, 22:04:23, Mon, 3548, no, http://www.itk.org/pipermail/insight-users/2011-August/042364.html
+ShapedNeighborhoodIterator get() and set() functions, nicrey, no, 02:25:52, Tue, 4117, no, http://www.itk.org/pipermail/insight-users/2011-August/042335.html
+fem registration, 369328686, yes, 22:27:37, Mon, 2837, no, http://www.itk.org/pipermail/insight-users/2011-August/042215.html
+video / image sequence processing filters, Siddharth Srivastava, yes, 23:48:51, Tue, 3203, no, http://www.itk.org/pipermail/insight-users/2011-August/042232.html
+ITKApps-ITKJava and external project wrapping for Java, Makrogiannis  Sokratis (NIH/NIA/IRP) [C], no, 11:13:29, Tue, 3353, no, http://www.itk.org/pipermail/insight-users/2011-August/042165.html
+Use Initial Segmentation as Input Level-Set, Abayiz, yes, 08:29:57, Sun, 3118, no, http://www.itk.org/pipermail/insight-users/2011-August/042271.html
+A Question about EigenAnalysis Filter, Vimal Singh, no, 19:32:08, Tue, 3036, no, http://www.itk.org/pipermail/insight-users/2011-August/042340.html
+Select one lable of interest among several labels, Abayiz, yes, 08:34:26, Wed, 2974, no, http://www.itk.org/pipermail/insight-users/2011-August/042238.html
+MatrixOffsetTransformBase Error from AffineTransform, Mehmet Suzen, no, 10:59:40, Fri, 4480, no, http://www.itk.org/pipermail/insight-users/2011-August/042318.html

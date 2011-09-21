@@ -1,0 +1,44 @@
+* Author: Zack Galbreath
+* Software used: Mac OS 10.6, Python 2.6.1, SQLite 3.6.12, PycURL 7.19.0,
+                 BeautifulSoap 3.2.0, Pipermail 0.09 (Mailman edition).
+* Project home: git://github.com/zackgalbreath/MailingListData.git
+* MD5 checksum of the official database file is: 
+
+
+== Contents ==
+
+README: The document you're currently reading
+MailingListData.{db,csv,xlsx}: My dataset, in SQLite, comma-separated-values,
+                               and Microsoft Excel 2007-2008 format
+collectData.py: Generates the dataset and stores it in an SQLite database
+convertSQLiteToCSV.py: Converts the SQLite database to CSV format
+
+
+== Usage notes ==
+
+* Running collectData.py will overwrite an existing MailingListData.db
+  If you modify the database and wish to keep your changes, you should rename
+  it or save it somewhere else.
+
+* Similarly, convertSQLiteToCSV.py overwrites MailingListData.csv.
+
+
+== Details about the columns == 
+
+* When recording Message_Subject, any tab character was converted to a single
+  space. 
+
+* A Received_Reply of "self only" means that the original author was the only
+  person to reply to the message.
+
+* Time_of_Day is recorded in EDT using a 24 hour clock.
+
+* Message_Length is the number of characters in the HTML source of Archive_URL.
+
+* Any_Attachments is set to "yes" when we detect a "non-text" attachment that is
+  not a "pgp-signature".  Note that Pipermail considers C++ source code
+  (MIME-type text/x-c++src) to be a "non-text" attachment.
+
+* You should be able to read each original email in its entirety at its
+  Archive_URL.  This list of URLs was taken from: 
+  http://www.itk.org/pipermail/insight-users/2011-August/thread.html
