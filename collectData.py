@@ -7,7 +7,7 @@ import StringIO
 import sys
 
 #Determines whether or not a message had a meaningful attachment
-def messageHasAttachment(contents):  
+def messageHasAttachment(contents):
   if contents.find("non-text attachment was scrubbed...") == -1:
     return "no"
   if contents.count("non-text attachment was scrubbed") == \
@@ -28,7 +28,7 @@ def parseURL(URL):
 
   contents = buffer.getvalue()
   messageData["length"] = len(contents)
-  
+
   messageData["attachment"] = messageHasAttachment(contents)
 
   dateTimeRE = re.compile("<I>([a-zA-Z]+).*?([0-9:]{8})")
@@ -85,7 +85,7 @@ if __name__ == "__main__":
     URL = baseURL + match.group(1)
     subject = string.replace(match.group(2), "\t", " ")
 
-    #get the author of this message (two lines later) 
+    #get the author of this message (two lines later)
     i = i + 2
     line = contents[i]
     match = authorRE.search(line)
